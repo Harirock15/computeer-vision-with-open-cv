@@ -7,7 +7,7 @@ img = cv2.imread("C:/Users/Hari Prasad/Pictures/Screenshots/Screenshot_20230202_
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Load the Haar Cascade classifier for face detection
-face_cascade = cv2.CascadeClassifier("C:/Users/koppo/Downloads/haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("C:/Users/Hari Prasad/Documents/haarcascade_frontalface_default.xml")
 
 # Detect faces in the image
 faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
